@@ -19,6 +19,7 @@ PODS:
     - DoubleConversion
     - glog
   - glog (0.3.5)
+  - iOS-Client-SDK (1.1.8)
   - RCTRequired (0.61.5)
   - RCTTypeSafety (0.61.5):
     - FBLazyVector (= 0.61.5)
@@ -218,6 +219,9 @@ PODS:
     - React-jsi (= 0.61.5)
     - ReactCommon/jscallinvoker (= 0.61.5)
   - Yoga (1.14.0)
+  - ZiggeoRN (1.4.3):
+    - iOS-Client-SDK
+    - React-Core
 
 DEPENDENCIES:
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
@@ -225,6 +229,7 @@ DEPENDENCIES:
   - FBReactNativeSpec (from `../node_modules/react-native/Libraries/FBReactNativeSpec`)
   - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
+  - iOS-Client-SDK (from `https://github.com/Ziggeo/iOS-Client-SDK.git`)
   - RCTRequired (from `../node_modules/react-native/Libraries/RCTRequired`)
   - RCTTypeSafety (from `../node_modules/react-native/Libraries/TypeSafety`)
   - React (from `../node_modules/react-native/`)
@@ -248,6 +253,7 @@ DEPENDENCIES:
   - ReactCommon/jscallinvoker (from `../node_modules/react-native/ReactCommon`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+  - ZiggeoRN (from `https://github.com/Ziggeo/ReactNativeSDK.git`)
 
 SPEC REPOS:
   trunk:
@@ -264,6 +270,8 @@ EXTERNAL SOURCES:
     :podspec: "../node_modules/react-native/third-party-podspecs/Folly.podspec"
   glog:
     :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
+  iOS-Client-SDK:
+    :git: https://github.com/Ziggeo/iOS-Client-SDK.git
   RCTRequired:
     :path: "../node_modules/react-native/Libraries/RCTRequired"
   RCTTypeSafety:
@@ -304,6 +312,16 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
+  ZiggeoRN:
+    :git: https://github.com/Ziggeo/ReactNativeSDK.git
+
+CHECKOUT OPTIONS:
+  iOS-Client-SDK:
+    :commit: 9dba07015a84f7180fd517ae7a66cc4affa5b75c
+    :git: https://github.com/Ziggeo/iOS-Client-SDK.git
+  ZiggeoRN:
+    :commit: f3b6dbbfe6746ddf5b1c8d38a7f563c749dcf893
+    :git: https://github.com/Ziggeo/ReactNativeSDK.git
 
 SPEC CHECKSUMS:
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
@@ -312,6 +330,7 @@ SPEC CHECKSUMS:
   FBReactNativeSpec: 118d0d177724c2d67f08a59136eb29ef5943ec75
   Folly: 30e7936e1c45c08d884aa59369ed951a8e68cf51
   glog: 1f3da668190260b06b429bb211bfbee5cd790c28
+  iOS-Client-SDK: f6022125c370a86549520159fb08dd77eeda5048
   RCTRequired: b153add4da6e7dbc44aebf93f3cf4fcae392ddf1
   RCTTypeSafety: 9aa1b91d7f9310fc6eadc3cf95126ffe818af320
   React: b6a59ef847b2b40bb6e0180a97d0ca716969ac78
@@ -332,7 +351,8 @@ SPEC CHECKSUMS:
   React-RCTVibration: a49a1f42bf8f5acf1c3e297097517c6b3af377ad
   ReactCommon: 198c7c8d3591f975e5431bec1b0b3b581aa1c5dd
   Yoga: f2a7cd4280bfe2cca5a7aed98ba0eb3d1310f18b
+  ZiggeoRN: 486ef88c9ed521cac187b2a7d9d5ae6724a61b73
 
-PODFILE CHECKSUM: b2c5c1ff3a829c19c68e1322a16baef2a54d53c0
+PODFILE CHECKSUM: 5b2c3ec3518181aefcaa9c3c2ae6af905b1e345c
 
 COCOAPODS: 1.9.0

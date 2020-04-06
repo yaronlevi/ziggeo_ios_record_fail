@@ -34,6 +34,9 @@ target 'ziggeo_test_2' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
+  pod 'ZiggeoRN', :git => 'https://github.com/Ziggeo/ReactNativeSDK.git'
+  pod 'iOS-Client-SDK', :git => 'https://github.com/Ziggeo/iOS-Client-SDK.git'
+
   target 'ziggeo_test_2Tests' do
     inherit! :search_paths
     # Pods for testing
