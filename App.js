@@ -7,6 +7,7 @@
  */
 
 import React from 'react';
+import Ziggeo from 'react-native-ziggeo-library';
 import {
   SafeAreaView,
   StyleSheet,
@@ -25,6 +26,7 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 const App: () => React$Node = () => {
+  alert(Ziggeo);
   return (
     <>
       <StatusBar barStyle="dark-content" />
